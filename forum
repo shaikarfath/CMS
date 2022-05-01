@@ -1,0 +1,35 @@
+<?php
+
+require "include/config.php";
+session_start();
+?>
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><?= APP_NAME ?> </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php
+    include "css.php"; ?>
+</head>
+
+<body>
+
+<?php
+include "header.php"; ?>
+<main>
+    
+    
+</main>
+<?php
+include "footer.php"; ?>
+
+<!-- JS here -->
+
+<?php
+include "js.php"; ?>
+
+</body>
+</html>
